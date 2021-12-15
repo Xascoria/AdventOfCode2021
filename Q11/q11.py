@@ -54,3 +54,5 @@ for i in range(10000):
     # print(i)
     # if i == 5:break
 print("ans",ff)
+import math
+print(math.factorial(171))
