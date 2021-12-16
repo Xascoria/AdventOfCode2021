@@ -69,8 +69,10 @@ def djsktra():
         current = min(uv,key=lambda x:p[x])
         uv.remove(current)
     print(p[(499,499)])
+import time 
+st = time.time()
 djsktra()    
-
+print("pp",time.time()-st)
 
     
 
