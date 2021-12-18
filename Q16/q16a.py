@@ -149,7 +149,9 @@ def calculation(pt, outarr):
     if pt == 7:
         return int(real[0]==real[1])
 
-binstr = convertb(ques_input)
-print(binstr)
+binstr = convertb(test_input)
+#print(binstr)
 print(decode_op(binstr)[2])
 #print(vn)
+
+print(convertb("C0015000016115A2E0802F182340"))
