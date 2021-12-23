@@ -1,4 +1,4 @@
-f = open("Q19/inputs.txt","r")
+f = open("Q19/testinputs.txt","r")
 ques_input = [i.strip("\n") for i in f.readlines()]
 
 scanners = {}
